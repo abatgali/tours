@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans',sans-serif;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        font-family: "Proxima Nova";
+        font-size: 60px;
+    }
+
+    .site-container {
+        max-width: 100%;
+    }
+
+    .learn-more {
+        background-color: #79ADDC;
+        color: #fff;
+        border-radius: 30px;
+        padding: 0.4em 0.6em;
+        width: fit-content;
+        margin: 2em auto 0;
+    }
+
+}
+
+
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(/app/fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url(/app/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
